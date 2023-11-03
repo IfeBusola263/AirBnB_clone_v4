@@ -1,4 +1,4 @@
-\1;95;0c/*A script that is used to make 1-hbnb.html
+/*A script that is used to make 1-hbnb.html
    page a dynamic one*/
 $(function(){
     $.post("http://0.0.0.0:5001/api/v1/places_search",
@@ -19,7 +19,7 @@ $(function () {
       if (data.status === "OK") {
         $("div#api_status").addClass('available');
       }
-    }
+    },
     error: function () {
       $('div#api_status').removeClass('available');
     }
