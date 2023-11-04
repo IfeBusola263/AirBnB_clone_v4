@@ -1,5 +1,5 @@
 /*A script that is used to make 3-hbnb.html
-   page a dynamic one*/
+  page a dynamic one*/
 
 $(function () {
   $.ajax({
